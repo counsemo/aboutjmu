@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>JMU</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+        .container > * {
+                background:#fff;
+                padding:1em;
+            }
+        .container {
+                display:grid;
+                grid-template-columns:repeat(6, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                 grid-gap:1em;
+                align-items:center;
+                max-width:1200px;
+                margin:0 auto;
+                grid-template-areas: 
+                 "header header header header header header"
+                "nav nav nav nav nav nav"
+                "image1 image1 p1 p1 p1 p1"
+                "p2 p2 p2 p2 image2 image2"
+                "footer footer footer footer footer footer";
+            }
+             header {
+                grid-area:header;
+            }
+            nav {
+                grid-area:nav;
+             }   
+            .image1 {
+                grid-area:image1;
+            }
+            .p1 {
+                grid-area:p1;
+                padding-right:20px;
+                align-items:center;
+            }
+            .p2 {
+                grid-area:p2;
+                padding-left:20px;
+                align-items:center;
+            }
+            .image2 {
+                grid-area:image2;
+            }
+            footer {
+                grid-area:footer;
+                display:flex;
+                justify-content:flex-end;
+                align-items:flex-end;
+                text-align:right;
+                padding-right:10px;
+                background-color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+   <div class="container">
+   <header>
+        <h1>JMU</h1>
+       <img class="logo" src="images/logo2.jpg" alt="mountains" width="288" height="50">
+    </header> 
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jmu.html">JMU</a></li>
+        <li><a href="downtown.html">Downtown</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        </ul>
+     </nav> 
+    <div class="image1">
+        <img class="image 1" src="images/wilsonsmall.jpg" alt="wilson" width="393" height="160">
+        <p>Wilson Hall at James Madison University.</p>
+    </div>
+    <div class="p1">
+        <p>One of the things I love the most about James Madison University is the way that the school connects with the community of Harrisonburg.  There are hundreds of organizations on campus whose goal is to bridge the gap between students and the residents of Harrisonburg.  A great example of this type of outreach is Big Brothers Big Sisters.  Members of the organization are partnered with an Elementary School student in the area to get to know and spend time with.  They get to go into the schools and eat lunch with them as well as do different activities around Harrisonburg.  A couple of my close friends have little sisters or little brothers and they say their college experience wouldn’t be complete without them. Since James Madison University is such a large part of the Harrisonburg community I think it is important that these organizations exist. 
+        </p>
+    </div>
+    <div class="p2">
+        <p>Through the dance major I am a part of an organization called DanceTheatre. DanceTheatre seeks to share dance to the community of Harrisoburg and James Madison University.  One of my favorite things that we do is volunteer at the Arboretum festival every fall.  Families from the community attend and there are all kinds of activities throughout the Arboretum for children to participate in.  Last year when I volunteered through DanceTheatre we brought a giant parachute and played different movement games.  It was such a hit!  Not only is it great to share what I do with the community but movement is also so important to the development of children and thier motor skills. 
+        </p>
+    </div>
+    <div class="image2">
+        <img class="image 2" src="images/fountainsmall.jpg" alt="fountain small" width="389" height="123">
+        <p>A view of part of Main Campus.</p>
+    </div>
+    <footer>
+        <p>
+        Maddie Counsell<br>
+        632 Collicello Street<br>
+        Harrisonburg, VA<br>
+        540(621-5168)
+         </p>
+    </footer>
+        </div>
+    </body>
+</html>

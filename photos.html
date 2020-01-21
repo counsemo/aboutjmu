@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Photos</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+             .container > * {
+                background:#eee;
+                padding:1em;
+                }
+              .container {
+                display:grid;
+                grid-template-columns:repeat(6, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                 grid-gap:1em;
+                max-width:1200px;
+                margin:0 auto;
+                grid-template-areas: 
+                 "header header header header header header"
+                "nav nav nav nav nav nav"
+                "box1 box1 box2 box2 box3 box3"
+                "box4 box4 box5 box5 box6 box6"
+                "box7 box7 box8 box8 box9 box9"
+                "footer footer footer footer footer footer";
+            }
+             header {
+                grid-area:header;
+            }
+            nav {
+                grid-area:nav;
+             }   
+            .box1 {
+               grid-area:box1;
+            }
+            .box2 {
+               grid-area:box2;
+            }
+            .box3 {
+               grid-area:box3;
+            }
+            .box4 {
+               grid-area:box4;
+            }
+            .box5 {
+               grid-area:box5;
+            }
+            .box6 {
+               grid-area:box6;
+            }
+            .box7 {
+               grid-area:box7;
+            }
+            .box8 {
+               grid-area:box8;
+            }
+            .box9 {
+               grid-area:box9;
+            }
+            footer {
+                grid-area:footer;
+                display:flex;
+                justify-content:flex-end;
+                align-items:flex-end;
+                text-align:right;
+                padding-right:10px;
+                background-color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+   <header>
+        <h1>Photos</h1>
+       <img class="logo" src="images/logo2.jpg" alt="mountains" width="288" height="50">
+    </header> 
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jmu.html">JMU</a></li>
+        <li><a href="downtown.html">Downtown</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        </ul>
+     </nav> 
+    <div class=box1>
+        <a href="Images/rooftopsbig.jpg" target="_blank"><img class="image 1" src="images/rooftopssmall.jpg" alt="rooftops small" width="388" height="100"></a>
+        <p>Rooftops in Downtown Harrisonburg.</p>
+    </div>
+        <div class=box2>
+        <a href="Images/skylinebig.jpg" target="_blank"><img class="image 2" src="images/skylinesmall.jpg" alt="skyline small" width="388" height="100"></a>
+        <p>The skyline on Main Campus at James Madison University.</p>
+    </div>
+        <div class=box3>
+        <a href="Images/satellitebig.jpg" target="_blank"><img class="image 3" src="images/satellitesmall.jpg" alt="satellite small" width="388" height="100"></a>
+        <p>Satellite dishes in Downtown Harrisonburg.</p>
+    </div>
+        <div class=box4>
+        <a href="Images/carrierbig.jpg" target="_blank"><img class="image 4" src="images/carriersmall.jpg" alt="carrier small" width="388" height="100"></a>
+        <p>Carrier Library at James Madison University.</p>
+    </div>
+        <div class=box5>
+        <a href="Images/floraclosebig.jpg" target="_blank"><img class="image 5" src="images/floraclosesmall.jpg" alt="floraclose small" width="388" height="100"></a>
+        <p>Flora Pettit Associates at Law in Downtown Harrisonburg.</p>
+    </div>
+        <div class=box6>
+        <a href="Images/sscbig.jpg" target="_blank"><img class="image 6" src="images/sscsmall.jpg" alt="ssc small" width="388" height="100"></a>
+        <p>The Student Success Center at James Madison University.</p>
+    </div>
+        <div class=box7>
+        <a href="Images/wetstairsbig.jpg" target="_blank"><img class="image 7" src="images/wetstarissmall.jpg" alt="wet stairs small" width="388" height="100"></a>
+        <p>The parking garage in Downtown Harrisonburg.</p>
+    </div>
+        <div class=box8>
+        <a href="Images/favviewbig.jpg" target="_blank"><img class="image 8" src="images/favviewsmall.jpg" alt="fav view small" width="388" height="100"></a>
+        <p>Main Campus at James Madison University.</p>
+    </div>
+        <div class=box9>
+        <a href="Images/roadclosedbig.jpg" target="_blank"><img class="image 9" src="images/roadclosedsmall.jpg" alt="roadclosed small" width="388" height="100"></a>
+        <p>Construction in Downtown Harrisonburg.</p>
+    </div>
+    <footer>
+        <p>
+        Maddie Counsell<br>
+        632 Collicello Street<br>
+        Harrisonburg, VA<br>
+        540(621-5168)
+            </p>
+    </footer>
+        </div>
+    </body>
+</html>

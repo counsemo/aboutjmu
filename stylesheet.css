@@ -1,0 +1,72 @@
+html {
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    @import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+    @import url('https://fonts.googleapis.com/css?family=Acme&display=swap');
+}
+*,*:before, *:after {
+    -webkit-box-sizing:border-inherit;
+    -moz-box-sizing:border-inherit;
+    box-sizing:border-inherit;
+}
+body {
+    margin:0;
+}
+ul {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow:hidden;
+  background-color:#333;
+}
+
+li {
+  float:left;
+}
+
+li a {
+  display:block;
+  color:white;
+  text-align:center;
+  padding:14px 16px;
+  text-decoration:none;
+}
+
+li a:hover {
+  background-color:#111;
+}    
+
+h1 {
+    padding-left:30px;
+    float:left;
+    font-family:'Acme';
+    font-size:30px;
+
+}
+h2 {
+    font-family:'Acme';
+    font-size:30px;
+    padding:none;
+
+}
+img {
+ max-width:100%;
+ height:auto;
+}
+.logo {
+    float:left;
+    
+}
+p {
+    font-family:'Open Sans',sans-serif;
+    font-size:26pts;
+    line-height:28pts;
+}
+
+         
+                
+                
+                
+                
+                

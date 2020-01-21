@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Downtown</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+            .container > * {
+                background:#eee;
+                padding:1em;
+            }
+         .container {
+                display:grid;
+                grid-template-columns:repeat(6, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                 grid-gap:1em;
+                align-items:center;
+                max-width:1200px;
+                margin:0 auto;
+                grid-template-areas: 
+                 "header header header header header header"
+                "nav nav nav nav nav nav"
+                "image1 image1 p1 p1 p1 p1"
+                "p2 p2 p2 p2 image2 image2"
+                "footer footer footer footer footer footer";
+            }
+             header {
+                grid-area:header;
+            }
+            nav {
+                grid-area:nav;
+             }   
+            .image1 {
+                grid-area:image1;
+            }
+            .p1 {
+                grid-area:p1;
+                padding-right:20px;
+            }
+            .p2 {
+                grid-area:p2;
+                padding-left:20px;
+            }
+            .image2 {
+                grid-area:image2;
+            }
+            footer {
+                grid-area:footer;
+                display:flex;
+                justify-content:flex-end;
+                align-items:flex-end;
+                text-align:right;
+                padding-right:10px;
+                background-color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+   <div class="container">
+   <header>
+        <h1>Downtown Harrisonburg</h1>
+       <img class="logo" src="images/logo2.jpg" alt="mountains" width="288" height="50">
+    </header> 
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jmu.html">JMU</a></li>
+        <li><a href="downtown.html">Downtown</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        </ul>
+     </nav> 
+    <div class="image1">
+        <img class="image 1" src="Images/elizabethsmall.jpg" alt="Elizabeth small" width="391" height="102"> 
+        <p>E Elizabeth Street in Downtown Harrisonburg.</p>
+    </div>
+    <div class="p1">
+        <p>
+            James Madison University is so fortunate to be located within walking distance of Harrisonburg’s historic downtown area. Harrisonburg was estbalished in 1779 by Thomas Harrison. Thomas was the son of English immigrants who's family settled in the Shenandoah Valley in 1737.  Originally, the city of Harrisonburg was only two and half acres.  Today, the city totals 11,132.16 acres. Harrisonburg city is home to a great deal of history, particularly during the civil war.  Both Union and Confederate troops passed through the area.  In 1862, the fence of the courthouse was used to hold Union soldiers who had been captured in battle. At the time, Harrisonburg was a part of the Confederacy; however, the representatives of Harrisonburg in Richmond opposed secession.
+            </p>
+    </div>
+    <div class="p2">
+        <p>
+        Since it's foundation, the city of Harrionsburg has grown into what it is today. The downtown scene has so much to offer from delicious restaurants such as Magnolias and Clementines to cute boutiques such as The Lady Jane and Blutique.  It serves as a fun weekend spot in addition to a great place to bring family and friends when they come to visit.  Two of my favorite spots in downtown Harrisonburg are Billy Jacks and Klines Ice Cream.  My friends and I discovered Billy Jacks our sophomore year and we are hooked! Sticky nuggets and fried mac and cheese is a Billy Jacks classic combo.  Klines Ice Cream is the only ice cream place that rivals the local one in my hometown.  They always serve chocolate and vanilla in addition to a special flavor of the week which is always a fun surprise! 
+        </p>
+    </div>
+    <div class="image2">
+         <img class="image 2" src="images/klinessmall.jpg" alt="Klines small" width="390" height="106">
+        <p>Klines Ice Cream located in Downtown Harrisonburg.</p>
+    </div>
+    <footer>
+        <p>
+        Maddie Counsell<br>
+        632 Collicello Street<br>
+        Harrisonburg, VA<br>
+        540(621-5168)
+            </p>
+    </footer>
+       </div>
+    </body>
+</html>

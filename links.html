@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <title>Links</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <link rel="stylesheet" href="stylesheet.css">
+        <style>
+            .container > * {
+                background:#eee;
+                padding:1em;
+            }
+        .container {
+                display:grid;
+                grid-template-columns:repeat(6, 1fr);
+                grid-auto-rows:minmax(100px, auto);
+                 grid-gap:1em;
+                max-width:1200px;
+                margin:0 auto;
+                grid-template-areas: 
+                 "header header header header header header"
+                "nav nav nav nav nav nav"
+                "box1 box1 box2 box2 box3 box3"
+                "box4 box4 box5 box5 box6 box6"
+                "box7 box7 box8 box8 box9 box9"
+                "footer footer footer footer footer footer";
+            }
+             header {
+                grid-area:header;
+            }
+            nav {
+                grid-area:nav;
+             }   
+            .box1 {
+               grid-area:box1;
+            }
+            .box2 {
+               grid-area:box2;
+            }
+            .box3 {
+               grid-area:box3;
+            }
+            .box4 {
+               grid-area:box4;
+            }
+            .box5 {
+               grid-area:box5;
+            }
+            .box6 {
+               grid-area:box6;
+            }
+            .box7 {
+               grid-area:box7;
+            }
+            .box8 {
+               grid-area:box8;
+            }
+            .box9 {
+               grid-area:box9;
+            }
+            footer {
+                grid-area:footer;
+                display:flex;
+                justify-content:flex-end;
+                align-items:flex-end;
+                text-align:right;
+                padding-right:10px;
+                background-color:#fff;
+            }
+        </style>
+    </head>
+    <body>
+    <div class="container">
+   <header>
+        <h1>Links</h1>
+       <img class="logo" src="images/logo2.jpg" alt="mountains" width="288" height="50">
+    </header> 
+    <nav>
+        <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="jmu.html">JMU</a></li>
+        <li><a href="downtown.html">Downtown</a></li>
+        <li><a href="links.html">Links</a></li>
+        <li><a href="photos.html">Photos</a></li>
+        </ul>
+     </nav> 
+    <div class=box1>
+        <a href="https://www.jackbrownsjoint.com/" target="_blank"><img class="link 1" src="images/jackbrownre.jpg" alt="jackbrown" width="389" height="102"></a>
+    </div>
+        <div class=box2>
+            <a href="https://www.walkaboutoutfitter.com" target="_blank"><img class="link 2" src="images/walkaboutre.jpg" alt="walkabout" width="389" height="102"></a>
+    </div>
+        <div class=box3>
+            <a href="http://www.jimmymadisons.com" target="_blank"><img class="link 3" src="images/jimmyre.jpg" alt="jimmymadisons" width="389" height="102"></a>
+    </div>
+        <div class=box4>
+            <a href="https://www.billyjacksshack.com" target="_blank"><img class="link 4" src="images/billyjackre.jpg" alt="billyjack" width="389" height="102"></a>
+    </div>
+        <div class=box5>
+            <a href="https://www.valleyarts.org" target="_blank"><img class="link 5" src="images/artsre.jpg" alt="arts" width="389" height="102"></a>
+    </div>
+        <div class=box6>
+            <a href="https://www.cubanburger.com/" target="_blank"><img class="link 6" src="images/cubanre.jpg" alt="cuban burger" width="389" height="102"></a>
+    </div>
+        <div class=box7>
+            <a href="https://www.harrisonburgva.gov" target="_blank"><img class="link 7" src="images/hburgcityre.jpg" alt="harrisonburg" width="389" height="102"></a>
+    </div>
+        <div class=box8>
+            <a href="http://clementinecafe.com/" target="_blank"><img class="link 7" src="images/clementinere.jpg" alt="clementines" width="389" height="102"></a>
+    </div>
+        <div class=box9>
+            <a href="http://www.capitalalehouse.com" target="_blank"><img class="link 9" src="images/capalere.jpg" alt="capital ale" width="389" height="102"></a>
+    </div>
+    <footer>
+        <p>
+        Maddie Counsell<br>
+        632 Collicello Street<br>
+        Harrisonburg, VA<br>
+        540(621-5168)
+            </p>
+    </footer>
+        </div>
+    </body>
+</html>
